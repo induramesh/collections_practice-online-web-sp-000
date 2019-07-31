@@ -38,9 +38,12 @@ def sum_array(arr)
 end 
   
 def add_s(arr)
-  s_added = arr.each_with_index.collect{|element, index| 
+  s_added = arr.each_with_index.map{|element, index| 
   if index != 2 
     element = element + "s"
+  else 
+    element = element 
+  end 
   }
   s_added
 end 
