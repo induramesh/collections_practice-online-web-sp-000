@@ -29,7 +29,7 @@ def kesha_maker(arr)
 end 
 
 def find_a(arr)
-  found = arr.select {|s| s.start_with?(a)}
+  found = arr.select {|s| s.start_with?("a")}
   found 
 end 
 
