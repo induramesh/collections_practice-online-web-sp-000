@@ -39,7 +39,7 @@ end
   
 def add_s(arr)
   s_added = arr.each_with_index.map{|element, index| 
-  if index != 2 
+  if index != 1
     element = element + "s"
   else 
     element = element 
