@@ -27,3 +27,13 @@ def kesha_maker(arr)
   kesha = arr.each {|s| s[2] = $}
   kesha 
 end 
+
+def find_a(arr)
+  found = arr.select {|s| s.start_with?(a)}
+  found 
+end 
+
+def sum_array(arr)
+  arr.inject(+)
+end 
+  
